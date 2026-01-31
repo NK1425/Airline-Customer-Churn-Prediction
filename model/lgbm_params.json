@@ -1,0 +1,17 @@
+{
+  "n_estimators": 300,
+  "max_depth": 3,
+  "learning_rate": 0.1,
+  "num_leaves": 15,
+  "min_child_samples": 50,
+  "subsample": 0.7,
+  "colsample_bytree": 0.7,
+  "reg_alpha": 1.0,
+  "reg_lambda": 0.1,
+  "objective": "binary",
+  "metric": "binary_logloss",
+  "boosting_type": "gbdt",
+  "verbosity": -1,
+  "random_state": 42,
+  "scale_pos_weight": 2.5005146680391146
+}
