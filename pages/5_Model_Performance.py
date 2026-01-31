@@ -24,8 +24,9 @@ from src.ui_components import (
 
 from sklearn.metrics import (
     confusion_matrix, roc_curve, auc, precision_recall_curve,
-    average_precision_score, calibration_curve
+    average_precision_score
 )
+from sklearn.calibration import calibration_curve
 
 try:
     import shap
